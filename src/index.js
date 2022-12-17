@@ -76,10 +76,12 @@ function initElement(element) {
     });
 
     let lang = element.getAttribute("lang");
-    if(lang) {
-        code.classList.add("language-" + lang);
-    } 
-
+    if(!lang) {
+        lang = 'html'
+        element.setAttribute("lang", lang)
+    }
+    code.classList.add("language-" + lang);
+    
     if (!element.codeElement) {
         element.insertAdjacentElement('beforebegin', pre);
         element.codeElement = code
