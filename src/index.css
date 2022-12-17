@@ -1,0 +1,13 @@
+textarea[type=code] {
+  box-sizing: border-box;
+  background: transparent;
+  color: transparent;
+  caret-color: darkgray;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 1em;
+  font-family:  Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  line-height: normal;
+  tab-size: 4;
+}
