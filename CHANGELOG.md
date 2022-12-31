@@ -1,3 +1,11 @@
+## [1.1.7](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.6...v1.1.7) (2022-12-31)
+
+
+### Bug Fixes
+
+* add doc _id ([77d6ec8](https://github.com/CoCreate-app/CoCreate-codearea/commit/77d6ec8149284c7ef7f94af00846d17d916e587a))
+* bump dependencies ([f3af377](https://github.com/CoCreate-app/CoCreate-codearea/commit/f3af3772e715f186fd1bd36dfaa26732568951dc))
+
 ## [1.1.6](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.5...v1.1.6) (2022-12-30)
 
 
