@@ -1,3 +1,11 @@
+## [1.1.9](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.8...v1.1.9) (2023-01-05)
+
+
+### Bug Fixes
+
+* bump cdn to 1.39.4 ([a2c6d79](https://github.com/CoCreate-app/CoCreate-codearea/commit/a2c6d79b9a08b68f1f805d506c7231d7b11945c8))
+* bump dependencies ([c502b51](https://github.com/CoCreate-app/CoCreate-codearea/commit/c502b51b8f14ecb2a1bf7334490c83825c1dfa64))
+
 ## [1.1.8](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.7...v1.1.8) (2023-01-01)
 
 
