@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.12...v1.1.13) (2023-01-13)
+
+
+### Bug Fixes
+
+* bump dependencies ([1f28f1a](https://github.com/CoCreate-app/CoCreate-codearea/commit/1f28f1ac8e95998746afdf1e1291580e8735f6d3))
+
 ## [1.1.12](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.11...v1.1.12) (2023-01-10)
 
 
