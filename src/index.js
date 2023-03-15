@@ -33,6 +33,16 @@ function initElement(element) {
         _initEvents(element)
     }
 
+    let theme = element.getAttribute("theme");
+    if(theme) {
+        pre.setAttribute("theme", theme)
+    }
+
+    let lineNumbers = element.getAttribute("line-numbers");
+    if (lineNumbers && lineNumbers !== 'false' || lineNumbers === '') {
+        pre.classList.add("line-numbers");
+    }
+
     let computed = getComputedStyle(element);
     let rect = element.getBoundingClientRect();
 
