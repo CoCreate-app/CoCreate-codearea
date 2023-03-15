@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.18...v1.2.0) (2023-03-15)
+
+
+### Features
+
+* attribute theme to difine theme ([6b1d685](https://github.com/CoCreate-app/CoCreate-codearea/commit/6b1d6851233dd73be2c419c97beaa12492dd7c65))
+
 ## [1.1.18](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.1.17...v1.1.18) (2023-02-01)
 
 
