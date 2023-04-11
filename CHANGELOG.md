@@ -1,3 +1,11 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.3.3...v1.3.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* bump cdn to 1.49.0' ([9d88ba7](https://github.com/CoCreate-app/CoCreate-codearea/commit/9d88ba7ceceedc75df8275d152077052b4aaa5a8))
+* renamed domains to hosts ([148823f](https://github.com/CoCreate-app/CoCreate-codearea/commit/148823ffb9c07bf3187681efb24653287a22e3c2))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.3.2...v1.3.3) (2023-03-30)
 
 
