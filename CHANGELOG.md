@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.3...v1.4.4) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([4327b8f](https://github.com/CoCreate-app/CoCreate-codearea/commit/4327b8fe66b72135553169c20cc19f32fb504b5b))
+
 ## [1.4.3](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.2...v1.4.3) (2023-04-24)
 
 
