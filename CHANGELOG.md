@@ -1,3 +1,11 @@
+## [1.4.9](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.8...v1.4.9) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([4d98321](https://github.com/CoCreate-app/CoCreate-codearea/commit/4d98321791a09bc213c5a15cd9f931e739e9deb3))
+* apikey renamed to key ([2a4c878](https://github.com/CoCreate-app/CoCreate-codearea/commit/2a4c878a884fb9139ba646e6e02b070e3c94a97f))
+
 ## [1.4.8](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.7...v1.4.8) (2023-05-06)
 
 
