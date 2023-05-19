@@ -1,3 +1,10 @@
+## [1.4.10](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.9...v1.4.10) (2023-05-19)
+
+
+### Bug Fixes
+
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([8685c91](https://github.com/CoCreate-app/CoCreate-codearea/commit/8685c918ce9a9f99315bd77ab439563e9c9fc21f))
+
 ## [1.4.9](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.8...v1.4.9) (2023-05-10)
 
 
