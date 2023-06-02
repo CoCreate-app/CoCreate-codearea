@@ -1,3 +1,11 @@
+## [1.4.12](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.11...v1.4.12) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([ecc1ae9](https://github.com/CoCreate-app/CoCreate-codearea/commit/ecc1ae9f6704e5a9d511359ee71c41c29cae6c9d))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([0cdf40b](https://github.com/CoCreate-app/CoCreate-codearea/commit/0cdf40b755663d02efdbe9b8f7cef4a005396d21))
+
 ## [1.4.11](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.10...v1.4.11) (2023-05-21)
 
 
