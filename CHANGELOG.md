@@ -1,3 +1,11 @@
+## [1.4.14](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.13...v1.4.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([672fdd9](https://github.com/CoCreate-app/CoCreate-codearea/commit/672fdd97fc83ebedcf8ea93077f00c7e0050ccca))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([96119c8](https://github.com/CoCreate-app/CoCreate-codearea/commit/96119c89da3bfc540568432982594ec7fc43d4fd))
+
 ## [1.4.13](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.12...v1.4.13) (2023-06-04)
 
 
