@@ -1,3 +1,10 @@
+## [1.4.16](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.15...v1.4.16) (2023-06-10)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([8abf9f6](https://github.com/CoCreate-app/CoCreate-codearea/commit/8abf9f66dcf8888dc29cf2c1c3c0baafdf12fb09))
+
 ## [1.4.15](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.14...v1.4.15) (2023-06-04)
 
 
