@@ -1,3 +1,10 @@
+## [1.4.21](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.20...v1.4.21) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([ec8537a](https://github.com/CoCreate-app/CoCreate-codearea/commit/ec8537a45f1423918186573170ba899ce2cf6516))
+
 ## [1.4.20](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.19...v1.4.20) (2023-06-11)
 
 
