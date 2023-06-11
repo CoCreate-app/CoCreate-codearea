@@ -1,3 +1,10 @@
+## [1.4.20](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.19...v1.4.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([c476c7c](https://github.com/CoCreate-app/CoCreate-codearea/commit/c476c7c5d4fa480a96d5f4d85049a93adfc01711))
+
 ## [1.4.19](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.18...v1.4.19) (2023-06-11)
 
 
