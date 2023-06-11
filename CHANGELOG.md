@@ -1,3 +1,11 @@
+## [1.4.24](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.23...v1.4.24) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([13105c7](https://github.com/CoCreate-app/CoCreate-codearea/commit/13105c72e190faed78d65bdb7837920926e55d67))
+* testing workflow ([3b9b71f](https://github.com/CoCreate-app/CoCreate-codearea/commit/3b9b71f0c571517eaddc4b1906210800d8964315))
+
 ## [1.4.23](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.22...v1.4.23) (2023-06-11)
 
 
