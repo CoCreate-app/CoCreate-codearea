@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.29...v1.5.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([df42f60](https://github.com/CoCreate-app/CoCreate-codearea/commit/df42f60417442354d2a148de3c9a0fa1cd822dec))
+* replace -target -selector ([f83663c](https://github.com/CoCreate-app/CoCreate-codearea/commit/f83663ce9f528fddb0d660e858a0fb88078f8d3a))
+* webpack.config and package.json make use of mode=production instead of process.env ([bd4eddd](https://github.com/CoCreate-app/CoCreate-codearea/commit/bd4eddd8aff15983d57d571f18afbfa284232d43))
+
+
+### Features
+
+* name attribute and variable renamed to key ([6fc1a2e](https://github.com/CoCreate-app/CoCreate-codearea/commit/6fc1a2e0badd258293cb4be375ae8539c25315fd))
+
 ## [1.4.29](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.4.28...v1.4.29) (2023-06-14)
 
 
