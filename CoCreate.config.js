@@ -14,7 +14,7 @@ module.exports = {
                 "cocreate.app",
                 "general.cocreate.app"
             ],
-            "directory": "/docs/codearea",
+            "directory": "codearea",
             "parentDirectory": "{{parentDirectory}}",
             "content-type": "{{content-type}}",
             "public": "true",
