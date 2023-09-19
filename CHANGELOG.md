@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.7.2...v1.7.3) (2023-09-19)
+
+
+### Bug Fixes
+
+* support pathname ([e6ef4eb](https://github.com/CoCreate-app/CoCreate-codearea/commit/e6ef4eb9c649d216a3caf9fbd0435315fefb374b))
+
 ## [1.7.2](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.7.1...v1.7.2) (2023-09-18)
 
 
