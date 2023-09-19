@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.7.3...v1.8.0) (2023-09-19)
+
+
+### Features
+
+* bump dependencies for there latest features ([53e9008](https://github.com/CoCreate-app/CoCreate-codearea/commit/53e9008364ba1a8b1a6845c06bfafa2e598e6769))
+
 ## [1.7.3](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.7.2...v1.7.3) (2023-09-19)
 
 
