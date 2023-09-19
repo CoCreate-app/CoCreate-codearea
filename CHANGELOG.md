@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.8.0...v1.9.0) (2023-09-19)
+
+
+### Features
+
+* Update CoCreate dependencies to their latest versions ([5cf51d9](https://github.com/CoCreate-app/CoCreate-codearea/commit/5cf51d96eb37044bd5c79c91f934c376bd3d4630))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.7.3...v1.8.0) (2023-09-19)
 
 
