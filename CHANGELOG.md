@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.9.1...v1.9.2) (2023-10-09)
+
+
+### Bug Fixes
+
+* bump dependencies ([5e63d37](https://github.com/CoCreate-app/CoCreate-codearea/commit/5e63d377ee3f1f90dcc73f3e84afe2cbcf2dc427))
+
 ## [1.9.1](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.9.0...v1.9.1) (2023-10-09)
 
 
