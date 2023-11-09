@@ -1,3 +1,10 @@
+## [1.9.7](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.9.6...v1.9.7) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([fc85ff0](https://github.com/CoCreate-app/CoCreate-codearea/commit/fc85ff0bfd51f72271aabe01121e63cb93821c0c))
+
 ## [1.9.6](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.9.5...v1.9.6) (2023-11-03)
 
 
