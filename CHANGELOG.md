@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.9.8...v1.10.0) (2023-11-19)
+
+
+### Features
+
+* update dependecies for th latest features and bug fixes ([23df952](https://github.com/CoCreate-app/CoCreate-codearea/commit/23df952bf75c9f92447bdc40fe35dc107222964e))
+
 ## [1.9.8](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.9.7...v1.9.8) (2023-11-12)
 
 
