@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.11.0...v1.12.0) (2023-11-25)
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([ec4d107](https://github.com/CoCreate-app/CoCreate-codearea/commit/ec4d107fbef929085cfa54f044ca1a5bf6b988de))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.10.0...v1.11.0) (2023-11-25)
 
 
