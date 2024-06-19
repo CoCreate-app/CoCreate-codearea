@@ -15,7 +15,7 @@ function init() {
 }
 
 function initElements(elements) {
-    for(let element of elements)
+    for (let element of elements)
         initElement(element);
 }
 
@@ -34,7 +34,7 @@ function initElement(element) {
     }
 
     let theme = element.getAttribute("theme");
-    if(theme) {
+    if (theme) {
         pre.setAttribute("theme", theme)
     }
 
@@ -47,7 +47,7 @@ function initElement(element) {
     let rect = element.getBoundingClientRect();
 
     let style = pre.style;
-    
+
     style.position = 'absolute';
     style.width = rect.width + 'px';
     style.height = rect.height + 'px';
@@ -61,7 +61,7 @@ function initElement(element) {
     style.outlineColor = 'transparent';
     style.boxSizing = computed['boxSizing'];
     style.lineHeight = computed['lineHeight'];
-    
+
     if (element.parentElement.style['display'] == 'inline') {
         style.top = element.clientTop + 'px';
         style.left = element.clientLeft + 'px';
@@ -69,7 +69,7 @@ function initElement(element) {
         style.top = element.offsetTop + 'px';
         style.left = element.offsetLeft + 'px';
     }
-    
+
     if (element.nodeName !== 'INPUT') {
         code.style.wordWrap = 'break-word';
         code.style.whiteSpace = 'pre-wrap';
@@ -79,26 +79,26 @@ function initElement(element) {
 
     let properties = ['fontStyle', 'fontVariant', 'fontWeight', 'fontStretch', 'fontSize', 'fontFamily', 'letterSpacing', 'lineHeight', 'textAlign', 'textTransform', 'textIndent', 'textDecoration', 'textRendering', 'textTransform', 'textIndent', 'overflowWrap', 'tabSize', 'webkitWritingMode', 'wordSpacing'];
 
-    properties.forEach(function(prop) {
+    properties.forEach(function (prop) {
         if (['left', 'top'].indexOf(prop.toLowerCase()) === -1) {
             code.style[prop] = computed[prop];
         }
     });
 
     let lang = element.getAttribute("lang");
-    if(!lang) {
+    if (!lang) {
         lang = 'html'
         element.setAttribute("lang", lang)
     }
     code.classList.add("language-" + lang);
-    
+
     if (!element.codeElement) {
         element.insertAdjacentElement('beforebegin', pre);
         element.codeElement = code
     }
     // element.evt("afterElementsAdded");
 
-    update({target: element})
+    update({ target: element })
 }
 
 function update(event) {
@@ -119,11 +119,11 @@ function update(event) {
 function _initEvents(element) {
     element.addEventListener('input', update);
 
-    element.addEventListener('keydown', function() {
+    element.addEventListener('keydown', function () {
         scrollSync(element);
     });
 
-    element.addEventListener('scroll', function() {
+    element.addEventListener('scroll', function () {
         scrollSync(element);
     });
 
@@ -149,19 +149,19 @@ observer.init({
     name: 'CoCreateCodeareaAddedNodes',
     observe: ['addedNodes'],
     target: 'textarea[type="code"]',
-    callback (mutation) {
+    callback(mutation) {
         initElement(mutation.target);
     }
 });
 
-observer.init({ 
-    name: 'CoCreateFilterObserver', 
+observer.init({
+    name: 'CoCreateFilterObserver',
     observe: ['attributes'],
     attributeName: ['type'],
     target: 'textarea[type="code"]',
-    callback: function(mutation) {
+    callback: function (mutation) {
         initElement(mutation.target);
     }
 });
 
-export default {initElement};
+export default { initElement };
