@@ -1,3 +1,10 @@
+## [1.12.4](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.12.3...v1.12.4) (2024-06-19)
+
+
+### Bug Fixes
+
+* formating ([b1397df](https://github.com/CoCreate-app/CoCreate-codearea/commit/b1397df56f8a6f41eb5ee3c872bdf9022698ff7f))
+
 ## [1.12.3](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.12.2...v1.12.3) (2024-06-12)
 
 
