@@ -1,3 +1,10 @@
+## [1.12.5](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.12.4...v1.12.5) (2024-09-21)
+
+
+### Bug Fixes
+
+* CoCreateJS script paths ([692ef13](https://github.com/CoCreate-app/CoCreate-codearea/commit/692ef13c1f04144493527445698ab2d36c681e86))
+
 ## [1.12.4](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.12.3...v1.12.4) (2024-06-19)
 
 
