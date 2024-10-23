@@ -10,7 +10,7 @@ import observer from "@cocreate/observer"
 import prism from "@cocreate/prism"
 
 function init() {
-    let elements = document.querySelectorAll('textarea[type="code"]');
+    let elements = document.querySelectorAll('[type="code"]');
     initElements(elements);
 }
 
@@ -21,15 +21,53 @@ function initElements(elements) {
 
 function initElement(element) {
     // element.evt("beforeElementsAdded");
+
+    // Disable spellcheck and other interfering features
+    const desiredAttributes = {
+        spellcheck: 'false',
+        autocomplete: 'off',
+        autocorrect: 'off',
+        autocapitalize: 'none'
+    };
+
+    /**
+     * Sets specific attributes on an element if they are not already defined.
+     *
+     * @param {HTMLElement} element - The element to set attributes on.
+     * @param {Object} attributes - An object containing attribute key-value pairs.
+     */
+    for (const [attr, value] of Object.entries(desiredAttributes)) {
+        if (!element.hasAttribute(attr)) {
+            element.setAttribute(attr, value);
+        }
+    }
+
+    // element.setAttribute('spellcheck', 'false');
+    // element.setAttribute('autocomplete', 'off');
+    // element.setAttribute('autocorrect', 'off');
+    // element.setAttribute('autocapitalize', 'none');
+
     let pre, code;
     if (element.codeElement) {
         code = element.codeElement
         pre = element.codeElement.parentElement
     } else {
-        code = document.createElement("code");
-        pre = document.createElement("pre");
-        pre.setAttribute("aria-hidden", "true"); // Hide for screen readers
-        pre.append(code);
+        let codearea = element.closest('codearea')
+        if (codearea) {
+            code = codearea.querySelector("code");
+            if (code) {
+                pre = code.parentElement
+                element.codeElement = code
+            }
+        }
+
+        if (!code) {
+            code = document.createElement("code");
+            pre = document.createElement("pre");
+            pre.setAttribute("aria-hidden", "true"); // Hide for screen readers
+            pre.append(code);
+        }
+
         _initEvents(element)
     }
 
@@ -62,7 +100,11 @@ function initElement(element) {
     style.boxSizing = computed['boxSizing'];
     style.lineHeight = computed['lineHeight'];
 
-    if (element.parentElement.style['display'] == 'inline') {
+    if (element.parentElement && !element.parentElement.style['position']) {
+        element.parentElement.style['position'] = 'relative'
+    }
+
+    if (element.parentElement && element.parentElement.style['display'] == 'inline') {
         style.top = element.clientTop + 'px';
         style.left = element.clientLeft + 'px';
     } else {
@@ -104,11 +146,20 @@ function initElement(element) {
 function update(event) {
     let codeElement = event.target.codeElement;
 
-    let text = event.target.value
+    // let text = event.target.getValue();
+    let text = event.target.value;
+    if (!text && (text = event.target.getAttribute('value'))) {
+        event.target.setValue(text, false)
+    }
+
     if (text[text.length - 1] == "\n") {
         text += " ";
     }
 
+    if (event.target.hasAttribute('value'))
+        event.target.setAttribute('value', text)
+
+    // TODO: Prism could observe code element for changes and initialize
     let lang = event.target.getAttribute("lang");
     if (text && lang) {
         text = prism.highlightText(text, lang);
@@ -148,7 +199,7 @@ init();
 observer.init({
     name: 'CoCreateCodeareaAddedNodes',
     observe: ['addedNodes'],
-    target: 'textarea[type="code"]',
+    target: '[type="code"]',
     callback(mutation) {
         initElement(mutation.target);
     }
@@ -158,7 +209,7 @@ observer.init({
     name: 'CoCreateFilterObserver',
     observe: ['attributes'],
     attributeName: ['type'],
-    target: 'textarea[type="code"]',
+    target: '[type="code"]',
     callback: function (mutation) {
         initElement(mutation.target);
     }

@@ -1,4 +1,4 @@
-textarea[type=code] {
+[type=code] {
   box-sizing: border-box;
   background: transparent;
   color: transparent;
@@ -11,3 +11,9 @@ textarea[type=code] {
   line-height: normal;
   tab-size: 4;
 }
+
+/* [type=code] {
+    white-space: pre-wrap;
+    overflow: auto;
+    outline: none;
+} */
