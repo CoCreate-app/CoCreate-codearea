@@ -63,13 +63,16 @@ function initElement(element) {
 
         if (!code) {
             code = document.createElement("code");
+        }
+
+        if (!pre) {
             pre = document.createElement("pre");
             pre.setAttribute("aria-hidden", "true"); // Hide for screen readers
             pre.append(code);
         }
-
         _initEvents(element)
     }
+
 
     let theme = element.getAttribute("theme");
     if (theme) {
@@ -199,7 +202,7 @@ init();
 observer.init({
     name: 'CoCreateCodeareaAddedNodes',
     observe: ['addedNodes'],
-    target: '[type="code"]',
+    selector: '[type="code"]',
     callback(mutation) {
         initElement(mutation.target);
     }
@@ -209,7 +212,7 @@ observer.init({
     name: 'CoCreateFilterObserver',
     observe: ['attributes'],
     attributeName: ['type'],
-    target: '[type="code"]',
+    selector: '[type="code"]',
     callback: function (mutation) {
         initElement(mutation.target);
     }
