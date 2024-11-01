@@ -149,9 +149,10 @@ function initElement(element) {
 function update(event) {
     let codeElement = event.target.codeElement;
 
+    // TODO: Use getValue(), beaware of edgecase were attribute value will take priority over innerHTML
     // let text = event.target.getValue();
     let text = event.target.value;
-    if (!text && (text = event.target.getAttribute('value'))) {
+    if (!text && (text = event.target.getAttribute('value') || '')) {
         event.target.setValue(text, false)
     }
 
