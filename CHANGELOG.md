@@ -1,3 +1,18 @@
+# [1.13.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.12.5...v1.13.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* fallback value to empty string ([3678755](https://github.com/CoCreate-app/CoCreate-codearea/commit/3678755d69686425b5d576266d82bab2ea21793d))
+* handling case where pre does not exist ([e6c8dbb](https://github.com/CoCreate-app/CoCreate-codearea/commit/e6c8dbb08e92923b475b43110b60b1e9a7e7e719))
+* pretier.config.js and file formating ([db1fb5b](https://github.com/CoCreate-app/CoCreate-codearea/commit/db1fb5b2c1d4a7f140b00d1b7107b9b565b7968a))
+
+
+### Features
+
+* add prettier.config.js and format files ([ba1519f](https://github.com/CoCreate-app/CoCreate-codearea/commit/ba1519febb7310f6abb3c08db77063cd9af0a84f))
+* handeling codearea container and support for contenteditable element ([1eaf7b0](https://github.com/CoCreate-app/CoCreate-codearea/commit/1eaf7b0def07a59a7c903f6f8cbdd8f318a25064))
+
 ## [1.12.5](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.12.4...v1.12.5) (2024-09-21)
 
 
