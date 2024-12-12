@@ -58,8 +58,20 @@ function initElement(element) {
 				pre = code.parentElement;
 				element.codeElement = code;
 			}
+		} else if (element.previousElementSibling) {
+			if (element.previousElementSibling.tagName === "PRE") {
+				pre = element.previousElementSibling;
+				code = pre.querySelector("code");
+				if (code) {
+					element.codeElement = code;
+				} else {
+					code = document.createElement("code");
+					pre.innerHTML = "";
+					pre.append(code);
+					element.codeElement = code;
+				}
+			}
 		}
-
 		if (!code) {
 			code = document.createElement("code");
 		}
@@ -188,7 +200,11 @@ async function update(event) {
 	let lang = event.target.getAttribute("lang");
 	if (text && lang) {
 		text = await prism.highlightText(text, lang);
+		codeElement.setValue(text);
 		codeElement.innerHTML = text;
+		// if (prism.plugins.lineNumbers) {
+		// 	prism.plugins.lineNumbers.resize(codeElement.parentElement);
+		// }
 	}
 }
 
