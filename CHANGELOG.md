@@ -1,3 +1,11 @@
+## [1.13.1](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.13.0...v1.13.1) (2024-12-14)
+
+
+### Bug Fixes
+
+* async update() await highlightText() ([0f9bdde](https://github.com/CoCreate-app/CoCreate-codearea/commit/0f9bdde788644fb0faab9b17a41b0b3aad543eb0))
+* improved handeling of existing pre and code ([8375f36](https://github.com/CoCreate-app/CoCreate-codearea/commit/8375f36579ae11b3bd848f8a53ec70eda41268ec))
+
 # [1.13.0](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.12.5...v1.13.0) (2024-11-04)
 
 
