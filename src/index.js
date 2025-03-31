@@ -237,7 +237,7 @@ init();
 
 observer.init({
 	name: "CoCreateCodeareaAddedNodes",
-	observe: ["addedNodes"],
+	types: ["addedNodes"],
 	selector: '[type="code"]',
 	callback(mutation) {
 		initElement(mutation.target);
@@ -246,8 +246,8 @@ observer.init({
 
 observer.init({
 	name: "CoCreateFilterObserver",
-	observe: ["attributes"],
-	attributeName: ["type"],
+	types: ["attributes"],
+	attributeFilter: ["type"],
 	selector: '[type="code"]',
 	callback: function (mutation) {
 		initElement(mutation.target);
