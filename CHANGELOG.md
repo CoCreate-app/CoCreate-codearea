@@ -1,3 +1,10 @@
+## [1.13.4](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.13.3...v1.13.4) (2025-05-01)
+
+
+### Bug Fixes
+
+* update [@cocreate](https://github.com/cocreate) dependencies ([84c69e0](https://github.com/CoCreate-app/CoCreate-codearea/commit/84c69e0224fdb7726c8acddb52d6b7408fa37f9e))
+
 ## [1.13.3](https://github.com/CoCreate-app/CoCreate-codearea/compare/v1.13.2...v1.13.3) (2025-04-30)
 
 
